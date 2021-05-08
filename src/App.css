@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding-top: 5rem;
+}
+.actions{
+    opacity: 0;
+}
+
+tr:hover .actions{
+    opacity: 1;
+    transition: 0.3s;
+}
+.delete-btn{
+    cursor: pointer;
+}
